@@ -17,7 +17,7 @@ public:
             prev=curr;
             curr=temp;
         }
-        return prev;
+        return prev
     }
     bool compareList(ListNode* head1, ListNode* head2){
         while(head1!=NULL && head2!=NULL){
